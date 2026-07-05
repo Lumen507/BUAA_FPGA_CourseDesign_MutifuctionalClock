@@ -66,7 +66,7 @@ E:.
 - 闹钟触发时LEDR[0]会亮，关闭SW[14]后才会熄灭
 
 ### 硬件面板介绍
-![](kit.jpg)
+![kit.jpg](https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/kit.jpg)
 见图中的绿色方框
 | 引脚 | 功能 |
 | --- | --- |
@@ -86,7 +86,7 @@ E:.
 > SW均是高电平有效
 
 ### 实现框图
-![](framework.png)
+![framework.png](https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/framework.png)
 这也是编程和例化的思路（左边的消抖模块图片未包含）
 
 ### 如何运行
@@ -96,7 +96,7 @@ E:.
     1. File > New Project Wizard
     2. working directory要选择可以正常打开的文件夹
     3. device要选择如下板子
-    ![](device.png)
+    ![device.png](https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/device.png)
     4. 其他点next即可
 3. 导入verilog代码
     1. Project > Add Files in Project
