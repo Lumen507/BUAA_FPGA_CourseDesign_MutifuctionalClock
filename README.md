@@ -109,7 +109,7 @@ E:.
     2. 打开 `DE2_115_pin_assignments.csv`
 6. 综合和烧录
     1. 在如图所示处点击Compile design
-    ![](compile.png)
+    ![compile.png](https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/compile.png)
     2. 没有报错的话点击Program Device
     3. 在Hardware Setup中选择USB端口（注意提前装好驱动）
     4. 点击Start直到烧录成功
