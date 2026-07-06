@@ -1,6 +1,6 @@
 ### 简介
 这是一个FPGA的多功能时钟项目，来自北航集成电路学院数字系统设计与验证课程的设计项目<br>
-`original_code`中的代码经过了上板验证；`new_code`中的代码尝试使其代码更加简洁、美观，可以优先采用和阅读。整体功能并非十分完善，仅供交流、学习！<br>
+`original_code`中的代码经过了上板验证；`new_code`中的代码尝试更加简洁、美观，可以优先采用和阅读。整体功能并非十分完善，仅供交流、学习！<br>
 
 ### 仓库结构
 ```
@@ -67,7 +67,9 @@ EDA工具：**Quartus Prime Lite**
 - 闹钟触发时`LEDR[0]`会亮，关闭`SW[14]`后才会熄灭
 
 ### 硬件面板介绍
-![kit.jpg](https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/photos/kit.jpg)
+
+<img src="https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/photos/kit.jpg" width="800">
+
 见图中的绿色方框
 | 引脚 | 功能 |
 | --- | --- |
@@ -88,7 +90,7 @@ EDA工具：**Quartus Prime Lite**
 
 ### 实现框图
 ![framework.png](https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/photos/framework.png)
-这也是编程和例化的思路（左边的消抖模块图片未包含）
+> 左边的消抖模块图片未包含
 
 ### 如何运行
 > 熟悉Quartus的用户可以跳过本节
@@ -99,7 +101,7 @@ EDA工具：**Quartus Prime Lite**
     3. device要选择如图所示板子
     4. 其他点next即可
 
-    <img src="https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/photos/device.png" width="300">
+    <img src="https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/photos/device.png" width="500">
 
 3. 导入verilog代码
     1. Project > Add Files in Project
@@ -112,7 +114,7 @@ EDA工具：**Quartus Prime Lite**
     2. 打开 `DE2_115_pin_assignments.csv`
 6. 综合和烧录
 
-    <img src="https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/photos/compile.png" width="300">
+    <img src="https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/photos/compile.png" width="500">
 
     1. 在如图所示处点击Compile design
     2. 没有报错的话点击Program Device
