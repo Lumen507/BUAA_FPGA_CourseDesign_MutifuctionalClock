@@ -1,6 +1,6 @@
 ### 简介
 这是一个FPGA的多功能时钟项目，来自北航集成电路学院数字系统设计与验证课程的设计项目<br>
-`original_code`中的代码经过了上板验证；`new_code`中的代码尝试使其代码更加简洁、美观，可以优先采用和阅读。整体功能并非十分完善，**仅供交流、学习**！<br>
+`original_code`中的代码经过了上板验证；`new_code`中的代码尝试使其代码更加简洁、美观，可以优先采用和阅读。整体功能并非十分完善，仅供交流、学习！<br>
 
 ### 仓库结构
 ```
@@ -96,18 +96,18 @@ EDA工具：**Quartus Prime Lite**
 2. 新建工程
     1. File > New Project Wizard
     2. working directory要选择可以正常打开的文件夹
-    3. device要**选择如图所示板子**
+    3. device要选择如图所示板子
     4. 其他点next即可
 
     <img src="https://github.com/Lumen507/BUAA_FPGA_CourseDesign_MutifuctionalClock/blob/main/photos/device.png" width="300">
 
-3. **导入verilog代码**
+3. 导入verilog代码
     1. Project > Add Files in Project
     2. 选择所有.v文件并打开
-4. **设置顶层模块**
+4. 设置顶层模块
     1. 打开 `clock_tb.v` 文件
     2. Project > Set as Top-level Entity
-5. **配置端口**
+5. 配置端口
     1. Assignments > Import Assignments
     2. 打开 `DE2_115_pin_assignments.csv`
 6. 综合和烧录
