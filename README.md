@@ -55,7 +55,7 @@ BUAA_FPGA_CourseDesign_MutifuctionalClock
 ```  
 
 ### 开发环境
-开发板：**Altera DE2-115**
+开发板：**Altera DE2-115**1<br>
 EDA工具：**Quartus Prime Lite**
 
 ### 功能介绍
